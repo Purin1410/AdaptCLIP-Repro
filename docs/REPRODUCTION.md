@@ -111,3 +111,9 @@ The notebook keeps downloaded assets, checkout and smoke scratch under
 It pins a training-code commit published before the notebook itself, avoiding a
 self-referential Git hash. To develop a new method, keep this baseline commit,
 change code in a new branch/commit and update the notebook's revision explicitly.
+
+Agents extending or running this repository should also read [AGENTS.md](../AGENTS.md).
+It records the baseline invariants, fair method-comparison rules, notebook versioning,
+queue/duplicate-submission handling, monitoring pitfalls and known evaluation-script
+issues. Recheck live run evidence before claiming GPU acceptance; documentation and
+results from an older worker are not validation of a new pinned training revision.

@@ -6,6 +6,7 @@ The original authors retain credit for AdaptCLIP. This repository adds a compact
 Kaggle workflow and minimal training-runtime changes; it is not the official implementation.
 
 - [Reproduction settings, training commands and resume](docs/REPRODUCTION.md)
+- [Agent working notes and experiment conventions](AGENTS.md)
 - [Kaggle notebook](notebooks/train_visa_kaggle.ipynb): public downloads, pinned clone,
   optional runtime checks and one `python train.py ...` command.
 - Default baseline: VisA, 2 T4s, SyncBatchNorm, batch 4/GPU (global 8), FP32,
