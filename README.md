@@ -1,3 +1,20 @@
+# AdaptCLIP-Repro
+
+Independent reproduction repository based on [gaobb/AdaptCLIP](https://github.com/gaobb/AdaptCLIP),
+upstream commit `354d9e3332ec5348b3d8e4439111d34f8e94c0a9`.
+The original authors retain credit for AdaptCLIP. This repository adds a compact
+Kaggle workflow and minimal training-runtime changes; it is not the official implementation.
+
+- [Reproduction settings, training commands and resume](docs/REPRODUCTION.md)
+- [Kaggle notebook](notebooks/train_visa_kaggle.ipynb): public downloads, pinned clone,
+  optional runtime checks and one `python train.py ...` command.
+- Default baseline: VisA, 2 T4s, SyncBatchNorm, batch 4/GPU (global 8), FP32,
+  seed 10 and 15 epochs. Single-GPU batch-8 training is also supported.
+- Technical execution does not establish reproduction of the published metrics.
+  Existing tables/results below are upstream author results.
+
+---
+
 
 # AdaptCLIP
 

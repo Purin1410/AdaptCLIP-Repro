@@ -1,0 +1,18 @@
+{
+  "upstream_url": "https://github.com/gaobb/AdaptCLIP.git",
+  "upstream_commit": "354d9e3332ec5348b3d8e4439111d34f8e94c0a9",
+  "assets": {
+    "VisA_20220922.tar": {
+      "url": "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar",
+      "sha256": "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362"
+    },
+    "1cls.csv": {
+      "url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/split_csv/1cls.csv",
+      "sha256": "a48557e6033318cb90556f706196bc9d247a776a23ea51aecee5a80dd0332995"
+    },
+    "ViT-L-14-336px.pt": {
+      "url": "https://openaipublic.azureedge.net/clip/models/3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02/ViT-L-14-336px.pt",
+      "sha256": "3035c92b350959924f9f00213499208652fc7ea050643e8b385c2dac08641f02"
+    }
+  }
+}

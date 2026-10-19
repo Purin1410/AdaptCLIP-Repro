@@ -14,3 +14,11 @@ text_json/
 taiji/
 pointad/
 *.pyc
+
+# Added 2026-10-19: local runtime artifacts are not research source.
+.venv*/
+.local*/
+runs/
+data/
+pretrained/
+*.partial
